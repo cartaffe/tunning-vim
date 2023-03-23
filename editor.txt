@@ -1,0 +1,51 @@
+Busqueda de string
+/string
+
+Parado sobre una syscall o funcion, K me da ayuda. En caso que sea de 
+otra seccion del man, oprmir <nro.seccion> K . 2K , por ejemplo
+
+Autocompletado desde headers o variables 
+Control n 
+
+Autocompletado de archivos de directorio
+?
+
+Reempazar palabra, parado al comienzo de la palabra
+cw
+
+partido de la pantalla en 2 y carga de otro programa
+:sp pepe.txt
+
+cambio de pantalla 
+Control ww
+
+reemplazo de archivo en la misma pantalla
+:e nombre.nuevo.archivo
+
+marcar (para cortar o pegar)
+V y me desplazo con el cursos
+
+copiar
+y  para copiar lo marcado
+yy para copiar la linea actual
+
+pegar
+p
+
+tabulado + o - > o < respectivamente (sirve para bloque previamente marcado)
+
+`p buscar en bibliotecas la definicion de algo
+previo hacer ctags -R /usr/include
+]k   v vuelve con o
+
+para ir a un archivo referenciado en otro 
+gf (go file) para volver control + o
+
+buscar el string donde estoy parado en todo el archivo (higlight)
+* (parado sobre el string) 
+
+para usar tabs (pesta;itas )
+
+ :tabnew archivo
+ se cambia con CTRL + PGDOWN o CTRL+PAGEUP
+ o en su defecto :tabnext  o :tabprev
