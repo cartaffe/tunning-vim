@@ -1,3 +1,3 @@
 # tunning-vim
-some plugin config
-a cheatseet to use some cool features
+- some plugin config. Once added to .vimrc, run :PLuginInstall
+- a cheatseet to use some cool features
