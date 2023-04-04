@@ -2,9 +2,9 @@ set nocompatible
 filetype off
 
 " set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
+set rtp+=/opt/shared/vim/bundle/Vundle.vim
 
-call vundle#begin()
+call vundle#begin('/opt/shared/vim/bundle')
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
 "
@@ -12,10 +12,10 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'scrooloose/nerdtree'
-Plugin 'kaicataldo/material.vim'
 Plugin 'Everblush/everblush.vim'
-Plugin 'indentLine.vim'
+Plugin 'sainnhe/gruvbox-material'
 Plugin 'itchyny/lightline.vim'
+Plugin 'indentLine.vim'
 Plugin 'itchyny/vim-gitbranch'
 Plugin 'vim-python/python-syntax'
 Plugin 'valloric/youcompleteme'
@@ -31,8 +31,8 @@ syntax on
 "
 "set background=dark
 let g:one_allow_italics = 1
-"colorscheme material
-colorscheme everblush
+"colorscheme everblush
+colorscheme gruvbox-material
 let g:github_colors_soft = 1
 
 " For Neovim > 0.1.5 and Vim > patch 7.4.1799 - https://github.com/vim/vim/commit/61be73bb0f965a895bfb064ea3e55476ac175162
