@@ -29,9 +29,10 @@ syntax on
 " =============================================================
 " Configuración para color de esquema material.
 "
-"set background=dark
+set background=dark
 let g:one_allow_italics = 1
 "colorscheme everblush
+let g:gruvbox_material_background = 'hard'
 colorscheme gruvbox-material
 let g:github_colors_soft = 1
 
