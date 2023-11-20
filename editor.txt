@@ -49,3 +49,8 @@ para usar tabs (pesta;itas )
  :tabnew archivo
  se cambia con CTRL + PGDOWN o CTRL+PAGEUP
  o en su defecto :tabnext  o :tabprev
+
+
+PLugins :
+ctr+t -> abre el nerdtree
+f2    -> abre terminal
