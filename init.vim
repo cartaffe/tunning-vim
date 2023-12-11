@@ -40,9 +40,10 @@ call plug#begin()
     Plug 'neoclide/coc.nvim',  {'branch': 'master', 'do': 'yarn install'}
     Plug 'plasticboy/vim-markdown'  "syntax for markdown
 
-    " Git diff in the file
+    " Git
     Plug 'airblade/vim-gitgutter'   "show data changed form last commit
     Plug 'itchyny/vim-gitbranch'	"branch added to last line
+    Plug 'github/copilot.vim'       "copilot support
 call plug#end()
 
 " Keymaps

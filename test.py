@@ -6,6 +6,14 @@ import sys
 def promedio(n, m):
     return (n+m)/2
 
+#github copilot test
+#documentatuion string
+#def promedio(n, m):
+#    """Esta funcion calcula el promedio de dos numeros
+#    n: primer numero
+#    m: segundo numero
+#    return: promedio de n y m
+
 if __name__ == '__main__':
     n,m,c = 2,0,0
     try:
