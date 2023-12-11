@@ -44,12 +44,13 @@ call plug#begin()
     Plug 'airblade/vim-gitgutter'   "show data changed form last commit
     Plug 'itchyny/vim-gitbranch'	"branch added to last line
     Plug 'github/copilot.vim'       "copilot support
+
 call plug#end()
 
 " Keymaps
  let g:NERDTreeWinSize=25
  map <C-t> :NERDTreeToggle<CR>
- map <F2> :belowright terminal<CR>
+ map <F2> :belowright 8sp +terminal<CR>
 
 "config for indent line
  let g:indentLine_char = "|"
