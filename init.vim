@@ -25,24 +25,24 @@ set termguicolors           " supports a greater number of colors
 " set backupdir=~/.cache/vim " Directory to store backup files.
 call plug#begin()
     " Appearance
-    Plug 'itchyny/lightline.vim'
-    Plug 'ryanoasis/vim-devicons'
-    Plug 'sainnhe/gruvbox-material'
+    Plug 'itchyny/lightline.vim'	"bettes last line
+    Plug 'ryanoasis/vim-devicons'	"iconos graficos
+    Plug 'sainnhe/gruvbox-material'	"colorscheme
 
     " Utilities
-    Plug 'sheerun/vim-polyglot'
-    Plug 'jiangmiao/auto-pairs'
-    Plug 'ap/vim-css-color'
-    Plug 'preservim/nerdtree'
-    Plug 'Yggdroot/indentLine'
+    Plug 'sheerun/vim-polyglot'     "languaje pack for 164 languajes
+	Plug 'jiangmiao/auto-pairs'		"autocomplete () [] {}
+    Plug 'ap/vim-css-color'         "color syntax
+    Plug 'preservim/nerdtree'		"tree
+    Plug 'Yggdroot/indentLine'		"indent line |
 
     " Completion / linters / formatters
     Plug 'neoclide/coc.nvim',  {'branch': 'master', 'do': 'yarn install'}
-    Plug 'plasticboy/vim-markdown'
+    Plug 'plasticboy/vim-markdown'  "syntax for markdown
 
     " Git diff in the file
-    Plug 'airblade/vim-gitgutter'
-    Plug 'itchyny/vim-gitbranch'
+    Plug 'airblade/vim-gitgutter'   "show data changed form last commit
+    Plug 'itchyny/vim-gitbranch'	"branch added to last line
 call plug#end()
 
 " Keymaps
@@ -66,6 +66,9 @@ call plug#end()
  if (has("termguicolors"))
     set termguicolors
  endif
+
+"map CR to configm selection for coc.nvim
+ inoremap <expr> <cr> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
 
 "config for itchyny/lightline.vim with itchyny/vim-gitbranch
  set laststatus=2
