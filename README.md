@@ -11,3 +11,8 @@
 - copy init.vim to ~/.config/nvim
 - run :PLuginInstall 
 - Need node and npm for coc.nvim (additionaly install manually plugin "npm ci")
+-   apt install nodejs npm
+-   cd ~/.local/share/nvim/plugged/coc.nvim
+-   npm install
+- Need to enable Copilot in init.vim
+-   :Copilot setup
