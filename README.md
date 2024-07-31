@@ -18,3 +18,8 @@
 - Need to enable Copilot in init.vim
 -   :Copilot setup
 -   Just in case you were using copilot witho other github account, you can change it with :Copilot signout and then :Copilot setup . B plan is to remove ~/.config/github-copilot/apps.json
+
+# Some cool features to enable
+- append some code to ~/.bashrc
+- cat bashrc >> ~/.bashrc
+- Logout and login again. Prompt should be showing the current git branch
