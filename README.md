@@ -19,7 +19,12 @@
 -   :Copilot setup
 -   Just in case you were using copilot witho other github account, you can change it with :Copilot signout and then :Copilot setup . B plan is to remove ~/.config/github-copilot/apps.json
 
-# Some cool features to enable
+# Some cool features to enable (in bash) 
 - append some code to ~/.bashrc
-- cat bashrc >> ~/.bashrc
+- cat bashrc.add >> ~/.bashrc
+- Logout and login again. Prompt should be showing the current git branch
+
+# Some cool features to enable (in zsh)
+- append some code to ~/.zshrc
+- cat zshrc.add >> ~/.zshrc
 - Logout and login again. Prompt should be showing the current git branch
