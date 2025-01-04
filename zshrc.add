@@ -16,3 +16,9 @@ prompt='%F{blue}%2/ %F{green}${vcs_info_msg_0_}%f$ '
 alias vim='nvim'
 alias vimdiff='nvim -d'
 alias ls='ls --color'
+#hone and end keys
+bindkey "^[[H" beginning-of-line
+bindkey "^[[F" end-of-line
+# esc + <-  or esc + -> keys
+bindkey "^[^[[C" forward-word
+bindkey "^[^[[D" backward-key
