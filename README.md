@@ -19,6 +19,10 @@
 -   :Copilot setup
 -   Just in case you were using copilot witho other github account, you can change it with :Copilot signout and then :Copilot setup . B plan is to remove ~/.config/github-copilot/apps.json
 
+NOTE: If you have issues to copy/paste from/to clipboard, verify if is configured
+    :checkhealth -> find clipboard section
+     if you get "WARNING: No clipboard tool found", you need to install xsel -> apt install xsel
+
 # Some cool features to enable (in bash) 
 - append some code to ~/.bashrc
 - cat bashrc.add >> ~/.bashrc
